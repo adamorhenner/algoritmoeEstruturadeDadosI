@@ -1,3 +1,5 @@
+#1
+
 using namespace std;
 
 int main ()
@@ -10,6 +12,7 @@ int main ()
 }
 
 ----------------------------------
+#2
 using namespace std;
 int C;
 void Soma()
@@ -30,10 +33,11 @@ int main()
 }
 
 ----------------------------
+#3
 using namespace std;
 
 void SOMA()
-{int a,b,c;
+{	int a,b,c;
 	a = 5;
 	b = 7;
 	c = a+b;
@@ -45,6 +49,7 @@ int main ()
 	cout<<(c);
 }
 -------------------------------
+#4
 using namespace std;
 
 int c;
@@ -60,5 +65,18 @@ int main ()
 	Soma();
 	cout<<(c);
 }
+=======================
+#5
+int c;
+void Soma()
+	int a,b;
+	a = 5
+	b = 7
+	c = A + b 
 
+int main()
+{	c = 15;
+	Soma()
+	cout<<(c)
 
+}
