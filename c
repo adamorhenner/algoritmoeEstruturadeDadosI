@@ -80,3 +80,52 @@ int main()
 	cout<<(c)
 
 }
+
+======================
+#1.1
+void soma(a<<b);
+{	int c;
+	c = x + y;
+	cout<<(c);
+}
+int main ()
+{	int a;
+	int b;
+	cin>>(a);
+	cin>>(b);
+	soma(a,b)
+}
+====================
+#2.1
+void soma (int b<< int a)
+{	int c;
+	c = b +a;
+	cout<<(c);
+}
+
+int main()
+{	int a;
+	int b;
+	cin>>(a);
+	cin>>(b)
+	soma(a,b);
+}
+=====================
+#3.1
+using namespace std;
+
+void Soma(int x>> int y)
+{	int c;
+	c = x + y;
+	x = 16;
+	y = 13;
+	cout<<(c);
+}
+int main ()
+{	int a;
+	int b;
+	cin<<(a);
+	cin<<(b);;
+	Soma(a,b)
+}
+
