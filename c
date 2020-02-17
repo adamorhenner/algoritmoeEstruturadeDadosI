@@ -128,4 +128,31 @@ int main ()
 	cin<<(b);;
 	Soma(a,b)
 }
+==========================
+FUNÇÃO
+void Media( ){
+	float vp1;
+	float vp2;
+	float vf;
+	cout << "Informe as notas do aluno:";
+	cin  >> vp1;
+	cin  >> vp2;
+	cin  >> vf;
+	cout << (vp1+vp2*2+vf*3)/6 << endl;
+	
+}
+
+
+int main(int argc, char *argv[]) {
+	Media();
+	Media();
+	Media();
+	Media();
+	Media();
+
+	
+	return 0;
+}
+
+
 
