@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+/* 1)	Elaborar programa para somar dois números informados pelo usuário. 
+Os comandos para leitura dos números e saída em tela do resultado devem estar dentro do módulo main.
+A soma dos valores informados no módulo main deverá ser realizada dentro do módulo Soma. Faça as seguintes versões:
+
+a.	Os valores digitados são comunicados para o módulo por meio de variáveis globais.
+O resultado da soma é comunicado para o principal por meio de variáveis globais.
+*/
+void Soma(float a, float b){
+	float c = a + b;
+	cout << c;
+}
+
+
+
+int main(int argc, char** argv) {
+	float a;
+	float b;
+	cout << "Informe a: ";
+	cin >> a;
+
+	cout << "Informe b: ";
+	cin >> b;
+	
+	Soma(a, b);
+	return 0;
+}

@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-void media3( ){
+/*void media3( ){
 	float vp1;
 	float vp2;
 	float vf;
@@ -20,12 +20,12 @@ void media2( ){
 	cin  >> vp2;
 	cin  >> vf;
 	cout << (vp1+vp2*2+vf*3)/6 << endl;
-}
-void media1( ){
+}*/
+void media(int par1){
 	float vp1;
 	float vp2;
 	float vf;
-	cout << "Informe as notas do primeiro aluno:";
+	cout << "Informe as notas do "<<par1<<" aluno:";
 	cin  >> vp1;
 	cin  >> vp2;
 	cin  >> vf;
@@ -33,9 +33,10 @@ void media1( ){
 }
 
 int main(int argc, char *argv[]) {
-	media1();
-	media2();
-	media3();
-	
+	media(1);
+	media(2);
+	media(3);
+	media(4);
+	media(5);
 	return 0;
 }
